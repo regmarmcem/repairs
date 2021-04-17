@@ -1,0 +1,42 @@
+{
+  "name": "Tsukurepo",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "25.0.0",
+    "react-native-debugger-open": "^0.3.17",
+    "react-test-renderer": "16.2.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "expo": "^26.0.0",
+    "react": "16.3.0-alpha.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-indicator": "^0.7.0",
+    "react-native-maps": "^0.21.0",
+    "react-native-progress": "^3.4.0",
+    "react-native-scripts": "^1.13.2",
+    "react-native-simple-twitter": "^1.2.4",
+    "react-native-spinkit": "^1.1.1",
+    "react-navigation": "1.5.8",
+    "react-navigation-redux-helpers": "^1.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "tcomb-form-native": "^0.6.11"
+  }
+}
